@@ -26,12 +26,10 @@ export function Layout({ children }: LayoutProps) {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold text-lg">
-                CU
-              </div>
+              <img src="/logo.png" alt="SWALAH logo" className="w-20  h-23 object-fill" />
               <div className="hidden sm:block">
-                <h1 className="text-lg font-bold text-foreground">College Union</h1>
-                <p className="text-xs text-muted-foreground">For Students, By Students</p>
+                <h1 className="text-lg font-bold text-foreground">SWALAH</h1>
+                <p className="text-xs text-muted-foreground">THE STUDENTS WING FOR ARTS AND LITERARY ACTIVITIES OF HIDAYA</p>
               </div>
             </Link>
 
@@ -107,12 +105,10 @@ export function Layout({ children }: LayoutProps) {
             {/* Brand */}
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-bold">
-                  CU
-                </div>
-                <h3 className="font-bold text-foreground">College Union</h3>
+                <img src="/logo.svg" alt="SWALAH mark" className="w-8 h-8 object-contain rounded-lg" />
+                <h3 className="font-bold text-foreground">SWALAH</h3>
               </div>
-              <p className="text-sm text-muted-foreground">For Students, By Students</p>
+              <p className="text-sm text-muted-foreground">THE STUDENTS WING FOR ARTS AND LITERARY ACTIVITIES OF HIDAYA</p>
             </div>
 
             {/* Quick Links */}
@@ -149,10 +145,10 @@ export function Layout({ children }: LayoutProps) {
                 <li>
                   Email:{" "}
                   <a
-                    href="mailto:union@college.edu"
+                    href="mailto:hello@swalah.edu"
                     className="text-primary hover:underline"
                   >
-                    union@college.edu
+                    hello@swalah.edu
                   </a>
                 </li>
                 <li>
@@ -192,7 +188,7 @@ export function Layout({ children }: LayoutProps) {
           </div>
 
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 College Union. All rights reserved.</p>
+            <p>&copy; 2024 SWALAH. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -148,8 +148,8 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
                     <p className="text-muted-foreground">
-                      <a href="mailto:union@college.edu" className="hover:text-primary transition-colors">
-                        union@college.edu
+                      <a href="mailto:hello@swalah.edu" className="hover:text-primary transition-colors">
+                        hello@swalah.edu
                       </a>
                     </p>
                     <p className="text-sm text-muted-foreground">We respond within 24 hours</p>

@@ -8,57 +8,101 @@ interface CommitteeMember {
   email?: string;
   image?: string;
 }
-
-const committeemembers: CommitteeMember[] = [
+const committeeMembers: CommitteeMember[] = [
   {
-    name: "Rajesh Kumar",
+    name: "Hashir Muhammed P",
     role: "President",
-    description: "Leading the union with vision and dedication. Oversees all union activities and represents student interests.",
-    email: "rajesh@college.edu",
+    description: "Leads the union with vision and responsibility, ensuring smooth overall functioning.",
+    email: "hashir.p@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/11.jpg",
   },
   {
-    name: "Priya Singh",
+    name: "Muhammed Hubab A",
+    role: "General Secretary",
+    description: "Coordinates union activities, maintains communication, and manages internal documentation.",
+    email: "hubab.a@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/12.jpg",
+  },
+  {
+    name: "Muhammed Hisan C",
     role: "Vice President",
-    description: "Supporting the president and managing day-to-day operations. Ensures smooth execution of all initiatives.",
-    email: "priya@college.edu",
+    description: "Supports the leadership team and monitors student welfare initiatives.",
+    email: "hisan.c@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/13.jpg",
   },
   {
-    name: "Arun Patel",
-    role: "Secretary",
-    description: "Maintains records, manages communications, and coordinates between teams. The backbone of our organization.",
-    email: "arun@college.edu",
+    name: "Muhammed Nihal Thangal",
+    role: "Vice President",
+    description: "Assists in coordinating programs and ensures smooth event execution.",
+    email: "nihal.thangal@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/14.jpg",
   },
   {
-    name: "Sneha Verma",
-    role: "Arts Club Secretary",
-    description: "Promotes cultural activities, organizes art exhibitions, and nurtures creative talent across campus.",
-    email: "sneha@college.edu",
+    name: "Muhammed Yoosuf P",
+    role: "Joint Secretary",
+    description: "Manages documentation, assists with planning, and executes key administrative duties.",
+    email: "yoosuf.p@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/15.jpg",
   },
   {
-    name: "Vikram Singh",
-    role: "Sports Secretary",
-    description: "Organizes sporting events, manages teams, and promotes fitness and wellness among students.",
-    email: "vikram@college.edu",
+    name: "Muhammed Afnas VK",
+    role: "PRO",
+    description: "Handles public relations, announcements, and external communication of union activities.",
+    email: "afnas.vk@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/16.jpg",
   },
   {
-    name: "Ananya Das",
-    role: "Media & Publicity Lead",
-    description: "Manages communications, social media, and ensures our stories reach the entire community.",
-    email: "ananya@college.edu",
+    name: "Muhammed Murshid P",
+    role: "Treasurer",
+    description: "Responsible for managing the union budget and maintaining transparent financial records.",
+    email: "murshid.p@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/17.jpg",
   },
   {
-    name: "Rohan Gupta",
-    role: "Finance Secretary",
-    description: "Manages union budget and finances transparently. Ensures responsible resource allocation.",
-    email: "rohan@college.edu",
+    name: "Muhammed Hashim P",
+    role: "Creative Wing",
+    description: "Designs visual content and brings creative direction to events and campaigns.",
+    email: "hashim.p@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/18.jpg",
   },
   {
-    name: "Pooja Joshi",
-    role: "Events Coordinator",
-    description: "Plans and executes memorable events that define the college experience for all students.",
-    email: "pooja@college.edu",
+    name: "Muhammed Sinan KK",
+    role: "Creative Wing",
+    description: "Works on creative design, media production, and branding for the union.",
+    email: "sinan.kk@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/19.jpg",
+  },
+  {
+    name: "Muhammed Rabeeh KP",
+    role: "Creative Wing",
+    description: "Supports digital creativity, event branding, and campaign visuals.",
+    email: "rabeeh.kp@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/20.jpg",
+  },
+  {
+    name: "Dibar Sha K",
+    role: "Office Secretary",
+    description: "Manages office activities, documentation, and administrative support.",
+    email: "dibarsha.k@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/21.jpg",
+  },
+  {
+    name: "Mazin Sha K",
+    role: "Outreach Coordinator",
+    description: "Builds connections with students, organizes outreach programs, and supports community activities.",
+    email: "mazinsha.k@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/22.jpg",
+  },
+  {
+    name: "Muhammed Junaid K",
+    role: "Financial Manager",
+    description: "Oversees financial planning, ensures proper fund allocation, and assists with budget audits.",
+    email: "junaid.k@collegeunion.edu",
+    image: "https://randomuser.me/api/portraits/men/23.jpg",
   },
 ];
+
+
 
 export default function Committee() {
   return (
@@ -76,7 +120,7 @@ export default function Committee() {
       {/* Committee Members */}
       <section className="py-16 md:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {committeemembers.map((member, index) => (
+          {committeeMembers.map((member, index) => (
             <div
               key={index}
               className="group rounded-xl border border-border bg-white dark:bg-slate-950 overflow-hidden hover:shadow-lg transition-all hover:border-secondary/30"

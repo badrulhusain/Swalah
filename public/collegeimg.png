@@ -1,0 +1,7 @@
+PLACEHOLDER: Add the college background image (PNG) here.
+
+Replace this placeholder with your actual PNG file. For example (Windows cmd.exe):
+
+copy C:\path\to\your\collegeimg.png c:\Users\admn\Music\773\Swalah\public\collegeimg.png
+
+After you overwrite this file the hero background will use the real image.

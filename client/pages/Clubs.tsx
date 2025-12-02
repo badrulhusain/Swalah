@@ -1,61 +1,166 @@
 import { Layout } from "@/components/Layout";
-import { Music, Trophy, Palette, Code, Leaf, BookOpen } from "lucide-react";
+import {
+  Palette,
+  BookOpen,
+  PenTool,
+  Newspaper,
+  Megaphone,
+  Users,
+  Library,
+  ImageIcon,
+  Globe,
+  Code,
+  Camera,
+  ShieldCheck,
+  
+} from "lucide-react";
 
 interface Club {
   name: string;
   description: string;
   icon: React.ReactNode;
-  members: number;
+  chairman: string;
+  convener: string;
   founded: string;
 }
-
-const clubs: Club[] = [
+export const clubs: Club[] = [
   {
-    name: "Arts Club",
+    name: "CREATIVE WING",
     description:
-      "Fostering creativity through visual arts, theater, and performing arts. Organizes exhibitions, plays, and cultural nights.",
+      "The hub of design and innovation — creating posters, branding, digital content, and creative direction for all union programs.",
     icon: <Palette className="w-8 h-8" />,
-    members: 150,
+    chairman: "Yoosuf",
+    convener: "Rabeeh",
     founded: "2015",
   },
+
   {
-    name: "Sports Club",
+    name: "ARABIC WING",
     description:
-      "Promoting fitness and excellence in sports. Organizes tournaments, training sessions, and inter-college competitions.",
-    icon: <Trophy className="w-8 h-8" />,
-    members: 200,
+      "Promotes Arabic language and culture through speech sessions, literary discussions, grammar workshops, and public speaking activities.",
+    icon: <BookOpen className="w-8 h-8" />,
+    chairman: "Shamil",
+    convener: "Ameer Ali",
     founded: "2014",
   },
+
   {
-    name: "Music Club",
+    name: "URDU WING",
     description:
-      "For music enthusiasts of all genres. Conducts concerts, jam sessions, and music appreciation events.",
-    icon: <Music className="w-8 h-8" />,
-    members: 100,
+      "Encourages Urdu poetry, Mushaira events, storytelling, literature appreciation and weekly language development sessions.",
+    icon: <PenTool className="w-8 h-8" />,
+    chairman: "Ashique",
+    convener: "Arif Ali",
     founded: "2016",
   },
+
   {
-    name: "Tech Club",
+    name: "ENGLISH WING",
     description:
-      "Exploring technology, coding, and innovation. Hosts hackathons, workshops, and tech talks by industry experts.",
-    icon: <Code className="w-8 h-8" />,
-    members: 180,
+      "Enhances English communication, debates, public speaking, creative writing and literary excellence through workshops and activities.",
+    icon: <Megaphone className="w-8 h-8" />,
+    chairman: "Rizwana",
+    convener: "Shuib",
     founded: "2017",
   },
+
   {
-    name: "Environmental Club",
+    name: "MALAYALAM WING",
     description:
-      "Committed to sustainability and environmental awareness. Organizes green initiatives and environmental campaigns.",
-    icon: <Leaf className="w-8 h-8" />,
-    members: 120,
+      "Promotes Malayalam literature through reading clubs, essay writing, storytelling, and cultural discussions.",
+    icon: <BookOpen className="w-8 h-8" />,
+    chairman: "Ijlan",
+    convener: "Shazad",
     founded: "2018",
   },
+
   {
-    name: "Literary Society",
+    name: "GK WING",
     description:
-      "Celebrating literature and creative writing. Hosts poetry readings, book discussions, and writing competitions.",
-    icon: <BookOpen className="w-8 h-8" />,
-    members: 90,
+      "Builds knowledge and awareness through quizzes, current affairs sessions, competitions, and informative discussions.",
+    icon: <Globe className="w-8 h-8" />,
+    chairman: "Mubashir",
+    convener: "Nizam",
+    founded: "2014",
+  },
+
+  {
+    name: "LIBRARY WING",
+    description:
+      "Encourages reading culture, book reviews, literary discussions and library volunteering activities.",
+    icon: <Library className="w-8 h-8" />,
+    chairman: "Mujthaba",
+    convener: "Sulaiman",
+    founded: "2014",
+  },
+
+  {
+    name: "ARTS WING",
+    description:
+      "Focuses on painting, drawing, calligraphy, sculpture and visual art exhibitions — nurturing creativity across campus.",
+    icon: <ImageIcon className="w-8 h-8" />,
+    chairman: "Rishad",
+    convener: "Sayyid Habeeb",
+    founded: "2014",
+  },
+
+  {
+    name: "MEDIA WING",
+    description:
+      "The official media group responsible for photography, videography, editing, reporting and event documentation.",
+    icon: <Camera className="w-8 h-8" />,
+    chairman: "Rihan",
+    convener: "Badurl",
+    founded: "2014",
+  },
+
+  {
+    name: "HIMAYA WING",
+    description:
+      "A welfare and support wing offering guidance, mentoring, counselling awareness, and humanitarian activities.",
+    icon: <ShieldCheck className="w-8 h-8" />,
+    chairman: "Sulthan",
+    convener: "Arshad",
+    founded: "2014",
+  },
+
+  {
+    name: "OGEA WING",
+    description:
+      "A social service and outreach-focused wing working on charity programs, community support, and empowerment activities.",
+    icon: <Users className="w-8 h-8" />,
+    chairman: "Mazin Sha",
+    convener: "Savad Salim",
+    founded: "2014",
+  },
+
+  {
+    name: "SKSSF WING",
+    description:
+      "A student Islamic organization promoting moral values, leadership development, spiritual learning, and social responsibility.",
+    icon: <Users className="w-8 h-8" />,
+    chairman: "Rishad Ali",
+    convener: "Abdul Bari",
+    founded: "2014",
+  },
+
+  {
+    name: "SICMA WING",
+    description:
+      "A student empowerment wing focusing on leadership, academic support, self-improvement and motivational activities.",
+    icon: <Users className="w-8 h-8" />,
+    chairman: "Sabith U",
+    convener: "Salman",
+    founded: "2014",
+  },
+
+  {
+    name: "ORATION WING",
+    description:
+      "Dedicated to public speaking, motivational talks, debates, elocution training and speech excellence.",
+    icon: <Megaphone className="w-8 h-8" />,
+    chairman: "Anas M",
+    convener: "Nihal N.T",
     founded: "2014",
   },
 ];
@@ -95,19 +200,19 @@ export default function Clubs() {
                 <p className="text-muted-foreground leading-relaxed">{club.description}</p>
 
                 <div className="space-y-2 pt-4 border-t border-border">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Members</span>
-                    <span className="font-semibold text-foreground">{club.members}+</span>
-                  </div>
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted-foreground">Founded</span>
-                    <span className="font-semibold text-foreground">{club.founded}</span>
+                  <div className="text-sm space-y-1">
+                    <div className="flex justify-between">
+                      <span className="text-muted-foreground">Chairman</span>
+                      <span className="font-semibold text-foreground">{club.chairman}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-muted-foreground">Convener</span>
+                      <span className="font-semibold text-foreground">{club.convener}</span>
+                    </div>
                   </div>
                 </div>
 
-                <button className="w-full mt-4 px-4 py-2 rounded-lg border border-primary text-primary font-medium hover:bg-primary/5 transition-colors">
-                  Learn More
-                </button>
+                
               </div>
             </div>
           ))}
@@ -117,7 +222,7 @@ export default function Clubs() {
         <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-8 md:p-12 border border-primary/20 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">Want to Join?</h2>
           <p className="text-lg text-muted-foreground max-w-3xl">
-            All clubs welcome new members! Attend our club meet-ups, events, and meetings during the semester. Registration details will be shared during the annual club fair and orientation.
+            Meet the chairman and convener of each club — attend club meet-ups, events, and meetings during the semester to connect and learn how to participate. Registration details will be shared during the annual club fair and orientation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity">
@@ -137,9 +242,9 @@ export default function Clubs() {
           </div>
           <div className="text-center space-y-2">
             <p className="text-3xl md:text-4xl font-bold text-secondary">
-              {clubs.reduce((sum, club) => sum + club.members, 0)}+
+              {clubs.length * 2}+
             </p>
-            <p className="text-muted-foreground">Total Members</p>
+            <p className="text-muted-foreground">Total Club Leads</p>
           </div>
           <div className="text-center space-y-2">
             <p className="text-3xl md:text-4xl font-bold text-accent">30+</p>

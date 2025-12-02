@@ -13,18 +13,18 @@ interface Announcement {
 const announcements: Announcement[] = [
   {
     id: 1,
-    title: "Union Elections 2024 - Nomination Period Open",
+    title: "SWALAH Elections 2024 - Nomination Period Open",
     content:
-      "The nomination period for the College Union Elections 2024 is now open. Interested students can submit their nominations by January 31, 2024. Elections will be held in February.",
+      "The nomination period for SWALAH Elections 2024 is now open. Interested students can submit their nominations by January 31, 2024. Elections will be held in February.",
     date: "January 10, 2024",
     category: "important",
     priority: "high",
   },
   {
     id: 2,
-    title: "College Fest 2024 - Volunteer Registration",
+    title: "SWALAH Fest 2024 - Volunteer Registration",
     content:
-      "Volunteers needed for College Fest 2024! If you're interested in contributing to the biggest event of the year, register now. Various roles available - management, coordination, logistics, and more.",
+      "Volunteers needed for SWALAH Fest 2024! If you're interested in contributing to the biggest event of the year, register now. Various roles available - management, coordination, logistics, and more.",
     date: "January 8, 2024",
     category: "event",
     priority: "high",

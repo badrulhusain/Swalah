@@ -7,9 +7,11 @@ export default function About() {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-primary/10 to-background py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">About the Union</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            SWALAH STUDENTS' UNION 2025–26
+          </h1>
           <p className="text-lg text-muted-foreground max-w-3xl">
-            Learn about our organization, mission, and the impact we create for our college community.
+            Darul Hidaya Da’wa College Manoor — A platform where knowledge, leadership, and Islamic values unite.
           </p>
         </div>
       </section>
@@ -20,10 +22,10 @@ export default function About() {
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">Who We Are</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              The College Union is a student-led organization dedicated to fostering community, organizing enriching events, and representing student interests across all aspects of campus life. We believe in empowering students to make their college experience memorable and meaningful.
+              The SWALAH Students’ Union is a vibrant, value-based movement dedicated to shaping morally upright, intellectually enriched, and socially responsible students rooted in Islamic character.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our members come from diverse backgrounds, bringing unique perspectives and talents that strengthen our organization and benefit the entire college community.
+              Operating under the academic and spiritual vision of Darul Huda Islamic University, SWALAH blends knowledge, creativity, ethics, and leadership to build well-rounded personalities.
             </p>
           </div>
 
@@ -33,29 +35,35 @@ export default function About() {
               <li className="flex items-start gap-3">
                 <span className="text-primary font-bold mt-1">→</span>
                 <div>
-                  <p className="font-semibold text-foreground">Founded</p>
-                  <p className="text-sm text-muted-foreground">2014 - Over a decade of impact</p>
+                  <p className="font-semibold text-foreground">Affiliation</p>
+                  <p className="text-sm text-muted-foreground">Darul Huda Islamic University</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-primary font-bold mt-1">→</span>
                 <div>
-                  <p className="font-semibold text-foreground">Members</p>
-                  <p className="text-sm text-muted-foreground">500+ active student volunteers</p>
+                  <p className="font-semibold text-foreground">Focus Areas</p>
+                  <p className="text-sm text-muted-foreground">
+                    Arts, Literature, Media, Moral Training & Social Outreach
+                  </p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-primary font-bold mt-1">→</span>
                 <div>
-                  <p className="font-semibold text-foreground">Events</p>
-                  <p className="text-sm text-muted-foreground">50+ events organized annually</p>
+                  <p className="font-semibold text-foreground">Languages</p>
+                  <p className="text-sm text-muted-foreground">
+                    English, Malayalam, Arabic, Urdu
+                  </p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-primary font-bold mt-1">→</span>
                 <div>
-                  <p className="font-semibold text-foreground">Coverage</p>
-                  <p className="text-sm text-muted-foreground">All academic departments</p>
+                  <p className="font-semibold text-foreground">Core Strength</p>
+                  <p className="text-sm text-muted-foreground">
+                    Islamic character, creativity, leadership, communication
+                  </p>
                 </div>
               </li>
             </ul>
@@ -64,6 +72,7 @@ export default function About() {
 
         {/* Mission, Vision, Values */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+
           {/* Mission */}
           <div className="space-y-4">
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
@@ -71,7 +80,7 @@ export default function About() {
             </div>
             <h3 className="text-2xl font-bold text-foreground">Our Mission</h3>
             <p className="text-muted-foreground leading-relaxed">
-              To create an inclusive, vibrant community that celebrates student achievements, organizes impactful events, and champions the interests and voices of all students.
+              To nurture intellectually empowered, morally disciplined, and creatively inspired students who contribute meaningfully to society with sincerity and compassion.
             </p>
           </div>
 
@@ -82,7 +91,7 @@ export default function About() {
             </div>
             <h3 className="text-2xl font-bold text-foreground">Our Vision</h3>
             <p className="text-muted-foreground leading-relaxed">
-              To establish a college where every student feels valued, heard, and empowered to contribute to campus life and pursue their passions.
+              To raise a generation where intellect, creativity, linguistic excellence, and Islamic values come together to serve humanity with wisdom and responsibility.
             </p>
           </div>
 
@@ -93,23 +102,30 @@ export default function About() {
             </div>
             <h3 className="text-2xl font-bold text-foreground">Our Values</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Inclusivity, Transparency, Excellence, and Accountability guide everything we do, ensuring fair representation and quality experiences for all.
+              Sincerity, Discipline, Creativity, Social Responsibility, Integrity, and Islamic Ethics.
             </p>
           </div>
         </div>
 
         {/* History Section */}
         <div className="bg-slate-50 dark:bg-slate-900 rounded-2xl p-8 md:p-12 border border-border">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">A Brief History</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">About SWALAH</h2>
+
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              The College Union was established in 2014 with a simple vision: to give students a voice and a platform to thrive. Over the years, we've grown from a small group of passionate students to a well-organized institution with representation from every corner of campus.
+              SWALAH is the Students' Wing for Arts and Literary Activities of Hidaya. It serves as a platform for debates, creative writing, cultural performances, drama, digital arts, media production, and social outreach.
             </p>
+
             <p className="text-lg text-muted-foreground leading-relaxed">
-              From organizing the annual College Fest that attracts thousands of visitors to launching our media wing that covers campus stories, our journey has been one of continuous growth and impact. We've also pioneered numerous clubs and societies that have become integral to campus culture.
+              Students actively engage in mastering English, Malayalam, Arabic, and Urdu through contests, workshops, and continuous practice — shaping confident communicators and responsible leaders.
             </p>
+
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Today, the College Union stands as a symbol of student empowerment, having shaped countless memories, launched successful career paths, and built a community that truly lives by the motto: "For Students, By Students."
+              Every activity focuses on building Islamic character, moral grounding, sincerity, humility, and respect — integrating intellectual pursuits with spiritual development.
+            </p>
+
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              SWALAH continues to innovate by blending tradition with modernity, fostering creativity, healthy competition, and community service to build a just and noble future.
             </p>
           </div>
         </div>
