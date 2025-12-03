@@ -149,7 +149,7 @@ export default function Contact() {
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
                     <p className="text-muted-foreground">
                       <a href="mailto:hello@swalah.edu" className="hover:text-primary transition-colors">
-                        hello@swalah.edu
+                        swalahDH@gmail.com
                       </a>
                     </p>
                     <p className="text-sm text-muted-foreground">We respond within 24 hours</p>
@@ -168,12 +168,12 @@ export default function Contact() {
                         +91 (123) 456-7890
                       </a>
                     </p>
-                    <p className="text-sm text-muted-foreground">Monday - Friday, 10 AM - 5 PM</p>
+                   
                   </div>
                 </div>
 
                 {/* Address */}
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-accent" />
                   </div>
@@ -183,10 +183,10 @@ export default function Contact() {
                     <p className="text-muted-foreground">College Campus</p>
                     <p className="text-sm text-muted-foreground mt-2">Visit us during office hours</p>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Hours */}
-                <div className="flex gap-4">
+                {/* <div className="flex gap-4">
                   <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                     <Clock className="w-6 h-6 text-primary" />
                   </div>
@@ -196,18 +196,18 @@ export default function Contact() {
                     <p className="text-muted-foreground">Saturday: 11:00 AM - 3:00 PM</p>
                     <p className="text-muted-foreground">Sunday: Closed</p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
             {/* Map Placeholder */}
-            <div className="bg-slate-100 dark:bg-slate-900 rounded-xl h-64 flex items-center justify-center border border-border">
+            {/* <div className="bg-slate-100 dark:bg-slate-900 rounded-xl h-64 flex items-center justify-center border border-border">
               <div className="text-center">
                 <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-2 opacity-50" />
                 <p className="text-muted-foreground">College Campus Map</p>
                 <p className="text-sm text-muted-foreground">Coming soon</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

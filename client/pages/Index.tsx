@@ -143,19 +143,19 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
-              <p className="text-4xl md:text-5xl font-bold text-primary">500+</p>
+              <p className="text-4xl md:text-5xl font-bold text-primary">300+</p>
               <p className="text-muted-foreground font-medium">Active Members</p>
             </div>
             <div className="space-y-2">
-              <p className="text-4xl md:text-5xl font-bold text-secondary">50+</p>
+              <p className="text-4xl md:text-5xl font-bold text-secondary">10+</p>
               <p className="text-muted-foreground font-medium">Events Yearly</p>
             </div>
             <div className="space-y-2">
-              <p className="text-4xl md:text-5xl font-bold text-accent">12</p>
-              <p className="text-muted-foreground font-medium">Clubs & Societies</p>
+              <p className="text-4xl md:text-5xl font-bold text-accent">14</p>
+              <p className="text-muted-foreground font-medium">Wings</p>
             </div>
             <div className="space-y-2">
-              <p className="text-4xl md:text-5xl font-bold text-primary">10+</p>
+              <p className="text-4xl md:text-5xl font-bold text-primary">20+</p>
               <p className="text-muted-foreground font-medium">Years of Impact</p>
             </div>
           </div>
@@ -185,7 +185,7 @@ export default function Index() {
                 </div>
               </Link>
 
-              <Link
+              {/* <Link
                 to="/announcements"
                 className="flex items-center gap-3 p-4 rounded-lg border border-border hover:border-primary/30 hover:bg-primary/5 transition-all group"
               >
@@ -194,7 +194,7 @@ export default function Index() {
                   <p className="font-semibold text-foreground">Announcements</p>
                   <p className="text-sm text-muted-foreground">Stay updated with latest notices</p>
                 </div>
-              </Link>
+              </Link> */}
 
               <Link
                 to="/clubs"

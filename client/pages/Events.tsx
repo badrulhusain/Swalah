@@ -15,9 +15,9 @@ const events: Event[] = [
   { id: 5, title: "INDEPENDENCE DAY", image: "/gallery/img5.jpg", status: "upcoming" },
   { id: 6, title: "LA KAL BASHAR ", image: "/gallery/img9.jpg", status: "upcoming" },
   { id: 7, title: "WAQF SEMINAR", image: "/gallery/img12.jpg", status: "upcoming" },
-  { id: 8, title: "BOOK LAUNCH", image: "/gallery/img7.jpg", status: "upcoming" },
   { id: 9, title: "WAQF SEMINAR", image: "/gallery/img10.jpg", status: "upcoming" },
-  { id: 10, title: "WAQF SEMINAR", image: "/gallery/img11.jpg", status: "upcoming" },
+  { id: 8, title: "WAQF SEMINAR", image: "/gallery/img11.jpg", status: "upcoming" },
+  { id: 10, title: "BOOK LAUNCH", image: "/gallery/img7.jpg", status: "upcoming" },
   { id: 11, title: "WAQF SEMINAR", image: "/gallery/img13.jpg", status: "upcoming" },
 ];
 
@@ -35,9 +35,7 @@ function ProgramCard({ program }: { program: Event }) {
           className="w-full h-full object-fill"
         />
       </div>
-      <div className="p-4">
-        <h3 className="text-lg font-semibold text-foreground">{program.title}</h3>
-      </div>
+      
     </div>
   );
 }

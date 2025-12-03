@@ -12,6 +12,9 @@ import {
   Code,
   Camera,
   ShieldCheck,
+  FlaskRound,
+  FileText,
+  HeartHandshake,
   
 } from "lucide-react";
 
@@ -134,35 +137,53 @@ export const clubs: Club[] = [
     founded: "2014",
   },
 
-  {
-    name: "SKSSF WING",
-    description:
-      "A student Islamic organization promoting moral values, leadership development, spiritual learning, and social responsibility.",
-    icon: <Users className="w-8 h-8" />,
-    chairman: "Rishad Ali",
-    convener: "Abdul Bari",
-    founded: "2014",
-  },
+{
+  name: "SKSSF WING",
+  description:
+    "The Samastha Kerala Sunni Students Federation wing focusing on creed education, Islamic guidance, moral values, and disciplined student leadership.",
+  icon: <ShieldCheck className="w-8 h-8" />, // better icon for creed/aqeedah
+  chairman: "Rishad Ali",
+  convener: "Abdul Bari",
+  founded: "2014",
+},
+{
+  name: "SICMA WING",
+  description:
+    "The science and innovation wing promoting scientific literacy, research mindset, academic excellence, and technology-based student empowerment.",
+  icon: <FlaskRound className="w-8 h-8" />, // science icon
+  chairman: "Sabith U",
+  convener: "Salman",
+  founded: "2014",
+},
+{
+  name: "ORATION WING",
+  description:
+    "The platform for cultivating public speaking, debates, elocution, motivational talks, and communication excellence.",
+  icon: <Megaphone className="w-8 h-8" />,
+  chairman: "Anas M",
+  convener: "Nihal N.T",
+  founded: "2014",
+},
+{
+  name: "PUBLISHING BUREAU",
+  description:
+    "Responsible for publications, creative writing, magazines, reports, documentation, and all written communication of the Union.",
+  icon: <FileText className="w-8 h-8" />, // better for publishing
+  chairman: "Irfan Husain",
+  convener: "Al-Sabith",
+  founded: "2014",
+},
 
-  {
-    name: "SICMA WING",
-    description:
-      "A student empowerment wing focusing on leadership, academic support, self-improvement and motivational activities.",
-    icon: <Users className="w-8 h-8" />,
-    chairman: "Sabith U",
-    convener: "Salman",
-    founded: "2014",
-  },
+ {
+  name: "WELFARE WING",
+  description:
+    "A service-oriented wing supporting student welfare, charity initiatives, relief activities, and community assistance programs.",
+  icon: <HeartHandshake className="w-8 h-8" />, // welfare/help icon
+  chairman: "Ajmal",
+  convener: "Fadil",
+  founded: "2014",
+},
 
-  {
-    name: "ORATION WING",
-    description:
-      "Dedicated to public speaking, motivational talks, debates, elocution training and speech excellence.",
-    icon: <Megaphone className="w-8 h-8" />,
-    chairman: "Anas M",
-    convener: "Nihal N.T",
-    founded: "2014",
-  },
 ];
 
 export default function Clubs() {
@@ -219,7 +240,7 @@ export default function Clubs() {
         </div>
 
         {/* Join Section */}
-        <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-8 md:p-12 border border-primary/20 space-y-6">
+        {/* <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-xl p-8 md:p-12 border border-primary/20 space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">Want to Join?</h2>
           <p className="text-lg text-muted-foreground max-w-3xl">
             Meet the chairman and convener of each club — attend club meet-ups, events, and meetings during the semester to connect and learn how to participate. Registration details will be shared during the annual club fair and orientation.
@@ -232,7 +253,7 @@ export default function Clubs() {
               Contact Us
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Club Stats */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 pt-16 border-t border-border">
@@ -247,7 +268,7 @@ export default function Clubs() {
             <p className="text-muted-foreground">Total Club Leads</p>
           </div>
           <div className="text-center space-y-2">
-            <p className="text-3xl md:text-4xl font-bold text-accent">30+</p>
+            <p className="text-3xl md:text-4xl font-bold text-accent">10+</p>
             <p className="text-muted-foreground">Events Yearly</p>
           </div>
           <div className="text-center space-y-2">

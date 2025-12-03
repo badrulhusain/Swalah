@@ -145,10 +145,10 @@ export function Layout({ children }: LayoutProps) {
                 <li>
                   Email:{" "}
                   <a
-                    href="mailto:hello@swalah.edu"
+                    href="swalah@gmail.com"
                     className="text-primary hover:underline"
                   >
-                    hello@swalah.edu
+                    swalahDH@gmail.com
                   </a>
                 </li>
                 <li>
@@ -157,7 +157,7 @@ export function Layout({ children }: LayoutProps) {
                     +91 (123) 456-7890
                   </a>
                 </li>
-                <li>Room 101, Student Center</li>
+              
               </ul>
             </div>
 
@@ -166,22 +166,22 @@ export function Layout({ children }: LayoutProps) {
               <h4 className="font-semibold mb-4 text-foreground">Follow Us</h4>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="/facebook"
                   className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center hover:opacity-80 transition-opacity"
                 >
-                  f
+                  F
                 </a>
                 <a
-                  href="#"
+                  href="/twitter"
                   className="w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center hover:opacity-80 transition-opacity"
                 >
-                  t
+                  X
                 </a>
                 <a
-                  href="#"
+                  href="/instagram"
                   className="w-8 h-8 rounded-full bg-accent text-white flex items-center justify-center hover:opacity-80 transition-opacity"
                 >
-                  i
+                  I
                 </a>
               </div>
             </div>
